@@ -22,6 +22,8 @@ This project simulates a vehicle sending telematics data (like speed, location, 
 - Matplotlib
 
 ---
+## Dashboard 
+![Alt Text](Dashboard.png)
 
 ## How to Run
 
@@ -63,12 +65,6 @@ All data endpoints require an API key.
 Example using `curl` to download CSV:
 
 ## curl -H "X-API-Key: key123" http://localhost:8000/export_csv -o telematics_data.csv
-
----
-
-## Example Screenshot
-
-![Dashboard Screenshot](dashboard_screenshot.png)
 
 ---
 
